@@ -12,6 +12,14 @@ app.use(cors());
 app.get('/', (req, res) => {
     res.send(courses)
 })
+app.get('/courses', (req, res) => {
+    res.send(courses)
+})
+app.get('/course/:id', (req, res) => {
+    const selectedCourse = courses.find(course => course.id === req.params.id);
+
+    res.send(selectedCourse);
+})
 
 app.listen(port, () => {
     console.log("Listening to ", port);

@@ -12,10 +12,17 @@ app.use(cors());
 app.get('/', (req, res) => {
     res.send(courses)
 })
+
 app.get('/courses', (req, res) => {
     res.send(courses)
 })
+
 app.get('/course/:id', (req, res) => {
+    const selectedCourse = courses.find(course => course.id === req.params.id);
+
+    res.send(selectedCourse);
+})
+app.get('/premium/course/:id', (req, res) => {
     const selectedCourse = courses.find(course => course.id === req.params.id);
 
     res.send(selectedCourse);

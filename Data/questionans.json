@@ -1,0 +1,22 @@
+[
+    {
+        "id": "qa1",
+        "question": "what is CORS?",
+        "ans": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a preflight request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request."
+    },
+    {
+        "id": "qa2",
+        "question": "Why are you using firebase? What other options do you have to implement authentication?",
+        "ans": "Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more. There are other alternatives to firebase that you can use, like- Auth0, MongoDb, Passport, Okta, JSON Web Token and many more"
+    },
+    {
+        "id": "qa3",
+        "question": "How does the private route work?",
+        "ans": "When we want to give access of a private page, where only a user or a premium user can see the page, then we put that particular page component inside the private component as a child. In private component, we check to see if the user meets some certain criterias and based on that result we navigate the user to that particular page if he/she has the access of it, otherwise they'll be redirected to login page or any other page where they will be asked to full the criterias to go to that route."
+    },
+    {
+        "id": "qa34",
+        "question": "What is Node? How does Node work?",
+        "ans": "Node.js is an open-source backend javascript runtime environment. It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node.js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive. Node.js accepts the request from the clients and sends the response, while working with the request node.js handles them with a single thread. To operate I/O operations or requests node.js use the concept of threads. Thread is a sequence of instructions that the server needs to perform. It runs parallel on the server to provide the information to multiple clients. Node.js is an event loop single-threaded language. It can handle concurrent requests with a single thread without blocking it for one request. Node.js basically works on two concept - Asynchronous and Non-blocking I/O. Non-blocking i/o  means working with multiple requests without blocking the thread for a single request. I/O basically interacts with external systems such as files, databases. Node.js is not used for CPU-intensive work means for calculations, video processing because a single thread cannot handle the CPU works. Asynchronous is executing a callback function. The moment we get the response from the other server or database it will execute a callback function. Callback functions are called as soon as some work is finished and this is because the node.js uses an event-driven architecture. The single thread does not work with the request instead it sends the request to another system which resolves the request and it is accessible for another request. The event loop contains a single thread and is responsible for handling easy tasks like executing callbacks and network I/O. When the program is to initialize all the top-level code is executed, the code is not in the callback function. All the applications code that is inside callback functions will run in the event loop. EventLoop is the heart of node.js. When we start our node application the event loop starts running right away. Most of the work is done in the event loop."
+    }
+]

@@ -28,7 +28,7 @@
     },
     {
         "id": "bdecs",
-        "title": "Nutrition, Heart Disease and Diabetes",
+        "title": "Heart Disease and Diabetes",
         "teacher": "Abdullah Al Mahfuz",
         "description": "Discover the latest insights on the importance of nutrition and lifestyle in the development and treatment of cardiovascular diseases and diabetes mellitus in the online open course Nutrition, Heart disease and Diabetes. You will learn about current progress in research on diabetes, cardiovascular disease and other cardiometabolic disorders and you will discover how these cardiometabolic diseases can be prevented in individuals and populations through lifestyle and dietary modifications.",
         "course_length": 5,
@@ -55,7 +55,7 @@
     },
     {
         "id": "cdecs",
-        "title": "Nutrition and Health: Food Safety",
+        "title": "Health & Food Safety",
         "teacher": "Abdullah Al Mahfuz",
         "description": "Learn about bacteria, pesticides and health hazards present in food. This online course is offered as a MOOC which means that you can study at your own pace, at your own time and anywhere you want.",
         "course_length": 8,
@@ -85,7 +85,7 @@
     },
     {
         "id": "ddecs",
-        "title": "Nutrition and Health: Micronutrients and Malnutrition",
+        "title": "Micronutrients and Malnutrition",
         "teacher": "Natalie Portman",
         "description": "Learn from the top professors of Wageningen University & Research about malnutrition and micronutrients and how they impact your health. This online course is offered as a MOOC, and is part of the Professional Certificate Pogramme: Nutrition and Health.",
         "course_length": 7,
@@ -116,7 +116,7 @@
     },
     {
         "id": "edecs",
-        "title": "Nutrition and Health: Macronutrients and Overnutrition",
+        "title": "Macronutrients and Overnutrition",
         "teacher": "Abdullah Al Mahfuz",
         "description": "Learn from the top professors of Wageningen University & Research about macronutrients and overnutrition and how they impact humans. This online course is offered as a MOOC, and is part of the Professional Certificate Pogramme: Nutrition and Health",
         "course_length": 9,

@@ -1,7 +1,7 @@
 [
     {
         "id": "qa1",
-        "question": "what is CORS?",
+        "question": "What is CORS?",
         "ans": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a preflight request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request."
     },
     {
@@ -12,7 +12,7 @@
     {
         "id": "qa3",
         "question": "How does the private route work?",
-        "ans": "When we want to give access of a private page, where only a user or a premium user can see the page, then we put that particular page component inside the private component as a child. In private component, we check to see if the user meets some certain criterias and based on that result we navigate the user to that particular page if he/she has the access of it, otherwise they'll be redirected to login page or any other page where they will be asked to full the criterias to go to that route."
+        "ans": "When we want to give access of a private page, where only a user or a premium user can see the page, then we put that particular page component inside the private component as a child. In private component, we check to see if the user meets some certain criterias and based on that, result we navigate the user to that particular page if he/she has the access of it, otherwise they'll be redirected to login page or any other page where they will be asked to fullfill the criterias to go to that route."
     },
     {
         "id": "qa34",
